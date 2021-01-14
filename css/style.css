@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	font-family: "Roboto", "sans-serif";
+	font-size: 1rem;
+	color: #424242;
+	background-color: #f5f5f5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 500;
+}
+h1 {
+	font-size: 1.75rem;
+}
+h2 {
+	font-size: 1.5rem;
+}
+h3 {
+	font-size: 1.25rem;
+}
+p {
+	font-size: 1rem;
+	color: #666666;
+	line-height: 1.2;
+}
+
+/* Styles For Navigation Section of Home Page */
+
+.nav {
+	width: 100%;
+	background-color: #333333;
+	color: #ffffff;
+}
+.container {
+	width: 60%;
+	min-width: 500px;
+	margin: 0 auto;
+}
+
+.nav__container {
+	display: flex;
+	align-items: center;
+	padding: 0.5rem 0;
+}
+
+.nav__brand {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.nav__brand-logo {
+	width: 3rem;
+	height: auto;
+}
+
+.nav__brand-name {
+	font-family: "Montserrat", "sans-serif";
+	font-size: 1.5rem;
+	margin-left: 1rem;
+}
+.nav__menu {
+	margin-left: auto;
+}
+
+.nav__menu-icon {
+	width: 20px;
+	height: auto;
+	cursor: pointer;
+}
