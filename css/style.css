@@ -78,3 +78,29 @@ p {
 	height: auto;
 	cursor: pointer;
 }
+.section {
+	width: 100%;
+	border-radius: 0.2rem;
+	background-color: #ffffff;
+	margin-top: 2rem;
+}
+
+.add-item__input {
+	width: 100%;
+	padding: 1.5rem 2rem;
+	display: flex;
+	align-items: center;
+}
+.add-item__icon {
+	width: 16px;
+	height: auto;
+}
+
+.add-item__input-field {
+	width: 100%;
+	border: none;
+	outline: none;
+	margin-left: 1rem;
+	font-size: 1rem;
+	color: #666666;
+}
