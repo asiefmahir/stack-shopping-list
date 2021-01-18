@@ -79,3 +79,35 @@ p {
 	cursor: pointer;
 }
 
+
+.section{
+	width: 100%;
+	border-radius: 0.2rem;
+	background-color: #ffffff;
+	margin-top: 2rem;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/*Add Item Input Section*/
+.add-item__input{
+	width: 100%;
+	padding: 1.5rem 2rem;
+	display: flex;
+	align-items: center;
+}
+
+.add-item__icon{
+	width: 16px;
+	height: auto;
+}
+
+.add-item__input-field{
+	width: 100%;
+	margin-left: 1rem;
+	border: none;
+	outline: none;
+	font-size: 1rem;
+	color: #666666;
+}
+
+
