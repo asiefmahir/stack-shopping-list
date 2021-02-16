@@ -40,6 +40,7 @@ body {
 	font-size: var(--font-size-text);
 	color: var(--font-color);
 	background-color: var(--page-color);
+	margin-bottom: 5rem;
 }
 
 h1,
@@ -163,6 +164,22 @@ p {
 	padding: 1.5rem 2rem;
 	width: 25%;
 	max-width: 25%;
+}
+
+.table__item-input {
+	color: var(--font-color-secondary);
+}
+
+.table--success .table__thead {
+		background-color: var(--completed-table-header-color);
+		color: var(--completed-table-header-font-color);
+}
+.table--success .table__tbody {
+	background-color: var(--completed-table-cell-color);
+}
+
+.table--success .table__tbody tr:nth-child(even) {
+	background-color: var(--table-striped-color-success);
 }
 
 .icon-button {
